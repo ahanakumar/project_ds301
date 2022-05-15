@@ -119,7 +119,7 @@ for n in range(epochs):
 
 end = time.time()
 print("Total time: {:.1f}".format(end-start))
-``
+```
 
 # Results VGG19 vs VGG16
 Using Tf-Hub model
