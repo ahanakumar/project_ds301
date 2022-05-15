@@ -129,5 +129,5 @@ Using Vgg19
 ![vgg19 p](https://user-images.githubusercontent.com/69249063/168494817-83699b81-3ec2-4e0f-ac25-f13ec201237c.png)
 
 Using Vgg16
-![vgg16](https://user-images.githubusercontent.com/69249063/168494835-64542f1b-05d4-4aa5-9428-fb021ca809a0.png)
 
+![vgg16 blur](https://user-images.githubusercontent.com/69249063/168496094-4a47b94a-f37c-46b8-9fd6-c6ae585e780a.png)
