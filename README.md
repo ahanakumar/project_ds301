@@ -5,8 +5,7 @@ Neural style transfer is an optimization technique used to take two images—a c
 
 This is implemented by optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image. These statistics are extracted from the images using a convolutional network.
 
-Cnns are really good at feature extraction of images. Cnns are also used for computer vision. We use a pretrained Cnn and realise the backpropogation mechanics to minimise the objective function. So, for this we minimise the style difference between S (Starry night) and G (generated image) while minimising the content difference between C (baby photo) and G (generated image). So, there are 2 loss functions. 
-
+Cnns are really good at feature extraction of images. Cnns are also used for computer vision. We use a pretrained Cnn and realise the backpropogation mechanics to minimise the objective function. So, for this we minimise the style difference between S (Starry night) and G (generated image) while minimising the content difference between C (baby photo) and G (generated image).This gives us 2 loss functions which we minimise by changing content weights. After which we realise the total variation loss to minimise the difference in the higher frequency components of the images. After which we re run the model and get the desired results. We run the same images on vgg16 model.
 
 
 # Code structure
